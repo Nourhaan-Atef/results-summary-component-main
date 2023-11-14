@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Frontend Mentor | Result Summary Component</title>
+  </head>
+  <body>
+    <div class="lg:h-screen lg:p-10 font-Hanken flex flex-col justify-center items-center">
+      <header class="flex justify-center items-center pt-10">
+        <h1
+          class="font-Hanken w-auto font-large text-2xl bg-DarkGrayBlue text-white p-2 mb-5 rounded-xl shadow-md"
+        >
+          Result Summary Component
+        </h1>
+      </header>
+
+      <main class="lg:w-1/2 w-full">
+        <div class="w-full flex flex-col lg:flex-row justify-center items-center">
+          <section
+            class="w-full lg:w-1/2 flex flex-col justify-center items-center bg-gradient-to-b from-LightRoyalBlue to-VioletBlue rounded-3xl py-4 px-10"
+          >
+            <h3 class="text-LightLavender font-medium text-lg mx-5">
+              Your Result
+            </h3>
+            <div
+              class="bg-gradient-to-b from-CobeltBlue to-PersianBlue rounded-full w-40 h-40 flex flex-col justify-center items-center my-5"
+            >
+              <p class="font-extrabold text-4xl text-white">76</p>
+              <span class="text-LightSlateBlue">of 100</span>
+            </div>
+            <h4 class="text-white font-medium text-2xl mb-4">Great</h4>
+            <div class="flex justify-center">
+              <p class="w-3/4 text-center text-LightLavender font-extralight">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
+          </section>
+          <section class="w-full lg:w-1/2 rounded-3xl p-5 shadow-md flex flex-col">
+            <h3 class="text-DarkGrayBlue font-large text-lg mx-5">Summary</h3>
+            <div class="flex flex-col gap-3 my-5">
+              <div
+                class="flex justify-between bg-VeryLightRed p-3 mx-5 rounded-lg font-Hanken"
+              >
+                <div class="flex justify-between opacity-80">
+                  <img src="/assets/images/icon-reaction.svg" alt="" />
+                  <p class="text-LightRed pl-2">Reaction</p>
+                </div>
+                <div class="flex justify-between">
+                  <p class="font-large text-DarkGrayBlue pr-2">80</p>
+                  <span class="text-LightLavender font-medium">/100</span>
+                </div>
+              </div>
+              <div
+                class="flex justify-between bg-LightOrangeyYellow p-3 mx-5 rounded-lg font-Hanken"
+              >
+                <div class="flex justify-between opacity-80">
+                  <img src="/assets/images/icon-memory.svg" alt="" />
+                  <p class="text-OrangeyYellow pl-2">Memory</p>
+                </div>
+                <div class="flex justify-between">
+                  <p class="font-large text-DarkGrayBlue pr-2">92</p>
+                  <span class="text-LightLavender font-medium">/100</span>
+                </div>
+              </div>
+              <div
+                class="flex justify-between bg-LightGreenTeal p-3 mx-5 rounded-lg font-Hanken"
+              >
+                <div class="flex justify-between opacity-80">
+                  <img src="/assets/images/icon-verbal.svg" alt="" />
+                  <p class="text-GreenTeal pl-2">Verbal</p>
+                </div>
+                <div class="flex justify-between">
+                  <p class="font-large text-DarkGrayBlue pr-2">61</p>
+                  <span class="text-LightLavender font-medium">/100</span>
+                </div>
+              </div>
+              <div
+                class="flex justify-between bg-LightCobeltBlue p-3 mx-5 rounded-lg font-Hanken"
+              >
+                <div class="flex justify-between opacity-80">
+                  <img src="/assets/images/icon-visual.svg" alt="" />
+                  <p class="text-CobeltBlue pl-2">Visual</p>
+                </div>
+                <div class="flex justify-between">
+                  <p class="font-large text-DarkGrayBlue pr-2">72</p>
+                  <span class="text-LightLavender font-medium">/100</span>
+                </div>
+              </div>
+            </div>
+            <button class="bg-DarkGrayBlue hover:bg-LightRoyalBlue mx-5 py-3 rounded-full text-white">
+              Continue
+            </button>
+          </section>
+        </div>
+      </main>
+    </div>
+    <!-- 
+    Summary Reaction 80 / 100 Memory 92 / 100 Verbal 61 / 100 Visual 72 / 100
+    Continue -->
+  </body>
+</html>
